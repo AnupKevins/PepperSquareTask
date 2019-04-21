@@ -100,7 +100,7 @@ class LandingScreenViewController: BaseClassViewController,to_pass_arr_images{
     }
     func to_pass_arr_imges(presents: [[ArrayImages]],index_img:Int) {
         
-        self.presents.append(presents.last!)
+        self.presents.append(presents.first!)
         
     }
     
@@ -108,9 +108,7 @@ class LandingScreenViewController: BaseClassViewController,to_pass_arr_images{
         super.viewWillAppear(true)
         self.navigationController?.navigationBar.prefersLargeTitles = true
          NotificationCenter.default.addObserver(self, selector: #selector(timer_running_update), name:UIApplication.willTerminateNotification, object: nil)
-        
-        //loadData()
-        //title_loadData()
+    
     }
     
     @IBAction func add_button(sender: UIBarButtonItem) {
@@ -127,7 +125,7 @@ class LandingScreenViewController: BaseClassViewController,to_pass_arr_images{
             DispatchQueue.main.async {
                 
                 
-                self?.loadData()
+                //self?.loadData()
                 self?.title_loadData()
             }
         }
@@ -241,7 +239,7 @@ extension LandingScreenViewController:UITableViewDelegate,UITableViewDataSource{
             }
             
             cell?.lbl_no_member.isHidden = false
-            cell?.lbl_no_member.text = "+ \(countpresentItem ?? 0 - 2)"
+            cell?.lbl_no_member.text = "+ \((countpresentItem ?? 0) - 2)"
         }
         
         

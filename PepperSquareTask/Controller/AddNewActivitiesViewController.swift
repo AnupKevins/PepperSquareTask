@@ -526,16 +526,17 @@ extension AddNewActivitiesViewController:UINavigationControllerDelegate,UIImageP
         {
             
             picker.dismiss(animated: true, completion: nil);
-            
+            if add_new_activity == true{
             self.arr_image.append(image)
             
             let item = (self.arr_image.count) - 1
             let insertionIndexPath = NSIndexPath.init(item: item, section: 0)
             
             self.collection_view.insertItems(at: [insertionIndexPath as IndexPath])
-            
+            }else{
  
             createPresentItem (with :image)
+            }
         }
     }
     
