@@ -41,5 +41,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>NSCameraUsageDescription</key>
+    <string>Allow this permission to upload photos for image messages.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Allow this permission upload photos for image messages.</string>
+    <key>Privacy - Media Library Usage Description </key>
+    <string>Allow this permission upload photos for image messages.</string>
 </dict>
 </plist>

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC1314FE226B44E600477A9C /* AddNewActivityCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1314FD226B44E600477A9C /* AddNewActivityCollectionViewCell.swift */; };
+		EC131500226B574000477A9C /* CustomAddItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC1314FF226B574000477A9C /* CustomAddItem.xib */; };
+		EC131502226B598200477A9C /* CustomAddItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC131501226B598200477A9C /* CustomAddItem.swift */; };
+		EC131504226B821200477A9C /* CustomDatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC131503226B821200477A9C /* CustomDatePicker.xib */; };
+		EC131506226B824B00477A9C /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC131505226B824B00477A9C /* CustomDatePicker.swift */; };
 		ECBA56C5226AE857000CD74C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBA56C4226AE857000CD74C /* AppDelegate.swift */; };
 		ECBA56C7226AE857000CD74C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBA56C6226AE857000CD74C /* ViewController.swift */; };
 		ECBA56CA226AE857000CD74C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECBA56C8226AE857000CD74C /* Main.storyboard */; };
@@ -15,6 +20,16 @@
 		ECBA56D2226AE859000CD74C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECBA56D0226AE859000CD74C /* LaunchScreen.storyboard */; };
 		ECBA56DD226AE859000CD74C /* PepperSquareTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBA56DC226AE859000CD74C /* PepperSquareTaskTests.swift */; };
 		ECBA56E8226AE859000CD74C /* PepperSquareTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBA56E7226AE859000CD74C /* PepperSquareTaskUITests.swift */; };
+		ECBA56F7226AF420000CD74C /* LandingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBA56F6226AF420000CD74C /* LandingScreenViewController.swift */; };
+		ECBA56FA226AF4A0000CD74C /* LandingScreenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBA56F9226AF4A0000CD74C /* LandingScreenTableViewCell.swift */; };
+		ECBA56FD226AFA3F000CD74C /* ColorsHexCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBA56FC226AFA3F000CD74C /* ColorsHexCode.swift */; };
+		ECBA56FF226B0503000CD74C /* AddingChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBA56FE226B0503000CD74C /* AddingChecklistViewController.swift */; };
+		ECBA5701226B0595000CD74C /* AddingChecklistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBA5700226B0595000CD74C /* AddingChecklistTableViewCell.swift */; };
+		ECBA5703226B0F3E000CD74C /* BaseClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBA5702226B0F3E000CD74C /* BaseClassViewController.swift */; };
+		ECBAC51F226B366C00E50DD8 /* AddNewActivitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBAC51E226B366C00E50DD8 /* AddNewActivitiesViewController.swift */; };
+		ECCDA5CE226C3B5D00B95EE7 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCDA5CC226C3B5D00B95EE7 /* Person+CoreDataClass.swift */; };
+		ECCDA5CF226C3B5D00B95EE7 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCDA5CD226C3B5D00B95EE7 /* Person+CoreDataProperties.swift */; };
+		ECCDA5D1226C5E1100B95EE7 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCDA5D0226C5E1100B95EE7 /* Protocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +50,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC1314FD226B44E600477A9C /* AddNewActivityCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewActivityCollectionViewCell.swift; sourceTree = "<group>"; };
+		EC1314FF226B574000477A9C /* CustomAddItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomAddItem.xib; sourceTree = "<group>"; };
+		EC131501226B598200477A9C /* CustomAddItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAddItem.swift; sourceTree = "<group>"; };
+		EC131503226B821200477A9C /* CustomDatePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomDatePicker.xib; sourceTree = "<group>"; };
+		EC131505226B824B00477A9C /* CustomDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
 		ECBA56C1226AE856000CD74C /* PepperSquareTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PepperSquareTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECBA56C4226AE857000CD74C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECBA56C6226AE857000CD74C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +69,16 @@
 		ECBA56E3226AE859000CD74C /* PepperSquareTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PepperSquareTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECBA56E7226AE859000CD74C /* PepperSquareTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PepperSquareTaskUITests.swift; sourceTree = "<group>"; };
 		ECBA56E9226AE859000CD74C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECBA56F6226AF420000CD74C /* LandingScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingScreenViewController.swift; sourceTree = "<group>"; };
+		ECBA56F9226AF4A0000CD74C /* LandingScreenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingScreenTableViewCell.swift; sourceTree = "<group>"; };
+		ECBA56FC226AFA3F000CD74C /* ColorsHexCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsHexCode.swift; sourceTree = "<group>"; };
+		ECBA56FE226B0503000CD74C /* AddingChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingChecklistViewController.swift; sourceTree = "<group>"; };
+		ECBA5700226B0595000CD74C /* AddingChecklistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingChecklistTableViewCell.swift; sourceTree = "<group>"; };
+		ECBA5702226B0F3E000CD74C /* BaseClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseClassViewController.swift; sourceTree = "<group>"; };
+		ECBAC51E226B366C00E50DD8 /* AddNewActivitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewActivitiesViewController.swift; sourceTree = "<group>"; };
+		ECCDA5CC226C3B5D00B95EE7 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		ECCDA5CD226C3B5D00B95EE7 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		ECCDA5D0226C5E1100B95EE7 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +106,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC99E3F2226CBBAA00B23CE0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ECCDA5CC226C3B5D00B95EE7 /* Person+CoreDataClass.swift */,
+				ECCDA5CD226C3B5D00B95EE7 /* Person+CoreDataProperties.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		ECBA56B8226AE856000CD74C = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +138,10 @@
 		ECBA56C3226AE856000CD74C /* PepperSquareTask */ = {
 			isa = PBXGroup;
 			children = (
+				EC99E3F2226CBBAA00B23CE0 /* Models */,
+				ECBA56FB226AF9ED000CD74C /* Helpers */,
+				ECBA56F8226AF489000CD74C /* Views */,
+				ECBA56F5226AF3F9000CD74C /* Controller */,
 				ECBA56C4226AE857000CD74C /* AppDelegate.swift */,
 				ECBA56C6226AE857000CD74C /* ViewController.swift */,
 				ECBA56C8226AE857000CD74C /* Main.storyboard */,
@@ -126,6 +169,40 @@
 				ECBA56E9226AE859000CD74C /* Info.plist */,
 			);
 			path = PepperSquareTaskUITests;
+			sourceTree = "<group>";
+		};
+		ECBA56F5226AF3F9000CD74C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ECBA56F6226AF420000CD74C /* LandingScreenViewController.swift */,
+				ECBA56FE226B0503000CD74C /* AddingChecklistViewController.swift */,
+				ECBA5702226B0F3E000CD74C /* BaseClassViewController.swift */,
+				ECBAC51E226B366C00E50DD8 /* AddNewActivitiesViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ECBA56F8226AF489000CD74C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ECBA56F9226AF4A0000CD74C /* LandingScreenTableViewCell.swift */,
+				ECBA5700226B0595000CD74C /* AddingChecklistTableViewCell.swift */,
+				EC1314FD226B44E600477A9C /* AddNewActivityCollectionViewCell.swift */,
+				EC131505226B824B00477A9C /* CustomDatePicker.swift */,
+				EC131503226B821200477A9C /* CustomDatePicker.xib */,
+				EC131501226B598200477A9C /* CustomAddItem.swift */,
+				EC1314FF226B574000477A9C /* CustomAddItem.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ECBA56FB226AF9ED000CD74C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				ECBA56FC226AFA3F000CD74C /* ColorsHexCode.swift */,
+				ECCDA5D0226C5E1100B95EE7 /* Protocols.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +309,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC131500226B574000477A9C /* CustomAddItem.xib in Resources */,
+				EC131504226B821200477A9C /* CustomDatePicker.xib in Resources */,
 				ECBA56D2226AE859000CD74C /* LaunchScreen.storyboard in Resources */,
 				ECBA56CF226AE859000CD74C /* Assets.xcassets in Resources */,
 				ECBA56CA226AE857000CD74C /* Main.storyboard in Resources */,
@@ -259,9 +338,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECBAC51F226B366C00E50DD8 /* AddNewActivitiesViewController.swift in Sources */,
+				ECBA56FF226B0503000CD74C /* AddingChecklistViewController.swift in Sources */,
+				ECBA56F7226AF420000CD74C /* LandingScreenViewController.swift in Sources */,
+				ECBA56FA226AF4A0000CD74C /* LandingScreenTableViewCell.swift in Sources */,
+				EC1314FE226B44E600477A9C /* AddNewActivityCollectionViewCell.swift in Sources */,
 				ECBA56C7226AE857000CD74C /* ViewController.swift in Sources */,
 				ECBA56C5226AE857000CD74C /* AppDelegate.swift in Sources */,
+				EC131506226B824B00477A9C /* CustomDatePicker.swift in Sources */,
+				ECCDA5CE226C3B5D00B95EE7 /* Person+CoreDataClass.swift in Sources */,
+				ECBA5703226B0F3E000CD74C /* BaseClassViewController.swift in Sources */,
+				EC131502226B598200477A9C /* CustomAddItem.swift in Sources */,
+				ECCDA5CF226C3B5D00B95EE7 /* Person+CoreDataProperties.swift in Sources */,
+				ECBA5701226B0595000CD74C /* AddingChecklistTableViewCell.swift in Sources */,
+				ECBA56FD226AFA3F000CD74C /* ColorsHexCode.swift in Sources */,
 				ECBA56CD226AE857000CD74C /* PepperSquareTask.xcdatamodeld in Sources */,
+				ECCDA5D1226C5E1100B95EE7 /* Protocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
