@@ -108,6 +108,9 @@ class AddingChecklistViewController: BaseClassViewController,UITextFieldDelegate
     
     @objc func view_submit_clicked(){
         
+        if self.custom_class_view.txt_field.text?.isEmpty == true{
+            to_add_msg(str:"Please enter item")
+        }else{
         
         let checklist = Checklist(context: managedObjextContext)
         
@@ -124,8 +127,26 @@ class AddingChecklistViewController: BaseClassViewController,UITextFieldDelegate
         }catch {
             print("Could not save data \(error.localizedDescription)")
         }
-        
+        }
     }
+    
+    func to_add_msg(str:String){
+        let alert = UIAlertController.init(title: "", message: str, preferredStyle: .alert)
+        
+        
+        let action_no = UIAlertAction.init(title: "Ok", style: .default , handler: { (_) in
+            alert.dismiss(animated: true, completion: nil)
+            
+            
+        })
+        
+        
+        
+        alert.addAction(action_no)
+        
+        present(alert, animated: true, completion: nil)
+    }
+    
     func to_design_txtfield(){
         self.custom_class_view.txt_field.delegate = self
         self.custom_class_view.txt_field.returnKeyType = .done
@@ -148,7 +169,7 @@ extension AddingChecklistViewController:UITableViewDelegate,UITableViewDataSourc
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "AddingChecklistTableViewCell", for: indexPath) as? AddingChecklistTableViewCell
         
-        cell?.lbl_index.text = "\(indexPath.row + 1)"
+        cell?.lbl_index.text = "\(indexPath.row + 1)."
        
         if checklists[indexPath.row].isselected == true{
             cell?.btn_checked.isSelected = true
